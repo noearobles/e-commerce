@@ -254,6 +254,7 @@ p a:hover {
 }
 
 #body #featured div {
+	letter-spacing: 1px;
 	left: 50%;
 	margin-left: -480px;
 	margin-top: -171px;
@@ -269,7 +270,8 @@ p a:hover {
 	color: #000;
 	display: inline-block;
 	font-size: 20px;
-	font-weight: bolder;
+	font-family: poller_oneregular;
+	font-weight: bold;
 	margin: 0 0 18px;
 	padding: 23px 27px 20px;
 	text-transform: uppercase;
@@ -396,6 +398,11 @@ p a:hover {
 	background: #fff;
 	color: #252525;
 	cursor: pointer;
+}
+
+#message {
+	font-size: smaller;
+	font-weight: bold;
 }
 
 #footer {
